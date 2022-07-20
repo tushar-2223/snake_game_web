@@ -6,8 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snakegame</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .mobile{
+            display:none;
+        }
+        @media (max-width:800px){
+         .mobile{
+            display:flex;
+            flex-wrap: wrap;
+            color:white;
+        }
+        }
+    </style>
 </head>
 <body>
+    <div class="mobile">
+        <h2>this game is not support your devices please play in dextop or laptop</h2>    
+    </div>
     <div class="body">
         <div id="scoreBox">Score: 0</div>
         <div id="hiscoreBox">HiScore: 0</div>
